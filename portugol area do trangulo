@@ -1,0 +1,12 @@
+programa {
+  funcao inicio() {
+    real base, altura, area
+    escreva("base")
+    leia(base)
+    escreva("altura")
+    leia(altura)
+
+    area = (altura * base) / 2
+    escreva(area)
+  }
+}
